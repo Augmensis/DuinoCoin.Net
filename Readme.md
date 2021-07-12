@@ -3,10 +3,11 @@ A simple C# .NET 5.0 library for Duino Coin. Feel free to fork the repo and subm
 
 Please raise any bugs and features as a new Issue/Ticket so that we can map them to pull requests where necessary.
 
+Use the `dev` branch for the latest development updates. Create a new branch from it for any new features and delete them once a Merge Request has been accepted.
+
 So far:
 - A wrapper for .NET calls to the official DUCO REST API https://github.com/dansinclair25/duco-rest-api 
 - Integration tests for the service to be notified of breaking changes from the API service.
-
 
 TODO:
 - Add usage examples to Readme
