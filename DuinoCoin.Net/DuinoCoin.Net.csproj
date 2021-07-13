@@ -7,7 +7,7 @@
     <Company>Augmensis Technologies Ltd</Company>
     <Description>A cross platform .NET 5.0 library for interacting with the DuinoCoin project (https://duinocoin.com/).</Description>
     <Copyright>Copyrights and trademarks 'DuinoCoin', 'DUCO' and other third party references remain the property of their respective owners.</Copyright>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
