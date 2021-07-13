@@ -1,4 +1,6 @@
 # DuinoCoin.Net
+[![Build, Test and Deploy NuGet Package ](https://github.com/Augmensis/DuinoCoin.Net/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/Augmensis/DuinoCoin.Net/actions/workflows/dotnet.yml)
+
 A simple C# .NET 5.0 library for Duino Coin. Feel free to fork the repo and submit pull requests for any new features you want to add.
 
 Please raise any bugs and features as a new Issue/Ticket so that we can map them to pull requests where necessary.
