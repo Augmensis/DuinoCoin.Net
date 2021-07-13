@@ -12,8 +12,8 @@ So far:
 - Integration tests for the service to be notified of breaking changes from the API service.
 
 TODO:
-- Add usage examples to Readme
 - Deploy to NuGet
+- Add usage examples to Readme
 - Get it officially added to the DUCO docs
 - Port the mining logic to C#, you know, for fun!
 - ?
