@@ -2,9 +2,9 @@ name: Build, Test and Deploy NuGet Package
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, dev ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, dev ]
 
 jobs:
   build:
@@ -23,3 +23,5 @@ jobs:
       run: dotnet build -c Release
     - name: Test
       run: dotnet test
+
+#TODO: Add deploy to nuget for master branch
