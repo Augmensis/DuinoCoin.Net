@@ -2,9 +2,19 @@ name: Deploy NuGet Package
 
 on:
   push:
-    branches: [ master ]
+    branches:
+    - master
+    branches-ignore:
+      - dev
+      - feature/*
+      - bug/*
   pull_request:
-    branches: [ master ]
+    branches:
+    - master
+    branches-ignore:
+    - dev
+    - feature/*
+    - bug/*
 
 jobs:
   build:
